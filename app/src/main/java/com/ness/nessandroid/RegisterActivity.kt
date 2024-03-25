@@ -123,7 +123,7 @@ fun Register() {
             )
         }
         Button(onClick = {
-            val Intent= Intent(context,RegisterActivity::class.java)
+            val Intent= Intent(context,MainActivity::class.java)
             context.startActivity(Intent)
         }) {
             Text(text = "Click to Register")

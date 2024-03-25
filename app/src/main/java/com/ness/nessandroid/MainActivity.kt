@@ -108,7 +108,7 @@ Button(onClick = { /*TODO*/ },
     )
 }
 Button(onClick = {
-    val Intent=Intent(context,MainActivity::class.java)
+    val Intent=Intent(context,RegisterActivity::class.java)
     context.startActivity(Intent)
 }) {
     Text(text = "Sign in")
